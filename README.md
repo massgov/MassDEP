@@ -1,5 +1,5 @@
 # MassDEP Public Water Supplier Document Search
-[http://massgov.github.io/MassDEP](http://massgov.github.io/MassDEP)
+[https://massgov.github.io/MassDEP](https://massgov.github.io/MassDEP)
  
 A React app widget for searching for and downloading documents related to 
 Public Water Supplier systems operations. The React components are derived from 
