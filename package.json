@@ -1,0 +1,42 @@
+{
+  "name": "massgov_massdep",
+  "description": "A React app widget for searching for and downloading documents related to Public Water Supplier systems operations.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Tsuyoshi Yano",
+    "email": "tio.yano@state.ma.us"
+  },
+  "scripts": {
+    "deploy": "gh-pages -d build",
+    "build-mayflower-artifacts": "node npm-scripts/build-mayflower-artifacts.js",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "postbuild": "shx rm -rf build/data",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/massgov/MassDEP.git"
+  },
+  "license": "",
+  "homepage": "https://massgov.github.io/MassDEP",
+  "dependencies": {
+    "prop-types": "^15.6.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.1",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "eslint": "^4.17.0",
+    "eslint-plugin-react": "^7.6.1",
+    "gh-pages": "^1.1.0",
+    "react-scripts": "^1.1.0",
+    "shelljs": "^0.8.1",
+    "shx": "^0.2.2",
+    "standard": "^10.0.3",
+    "webpack": "^3.10.0"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/massgov/mayflower-artifacts"
+    }
+  ],
+  "require-dev": {
+    "palantirnet/mayflower-artifacts": "5.13.0"
+  }
+}

@@ -1,0 +1,49 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "c8634986c09346dfaeae0cbaa4519915",
+    "packages": [],
+    "packages-dev": [
+        {
+            "name": "palantirnet/mayflower-artifacts",
+            "version": "5.13.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/massgov/mayflower-artifacts.git",
+                "reference": "1cea7dffab04acc78585261a3a3a48f276aa0c28"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/massgov/mayflower-artifacts/zipball/1cea7dffab04acc78585261a3a3a48f276aa0c28",
+                "reference": "1cea7dffab04acc78585261a3a3a48f276aa0c28",
+                "shasum": ""
+            },
+            "type": "library",
+            "license": [
+                "proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "Bryan Hirsch",
+                    "email": "bryan.hirsch@mass.gov"
+                }
+            ],
+            "description": "This repository is the product of the built artifact from massgov/mayflower",
+            "support": {
+                "source": "https://github.com/massgov/mayflower-artifacts/tree/5.13.0",
+                "issues": "https://github.com/massgov/mayflower-artifacts/issues"
+            },
+            "time": "2018-02-16T16:52:35+00:00"
+        }
+    ],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
