@@ -7,7 +7,6 @@
     "email": "tio.yano@state.ma.us"
   },
   "scripts": {
-    "deploy": "gh-pages -d build",
     "build-mayflower-artifacts": "node npm-scripts/build-mayflower-artifacts.js",
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -20,7 +19,7 @@
     "url": "https://github.com/massgov/MassDEP.git"
   },
   "license": "",
-  "homepage": "https://massgov.github.io/MassDEP",
+  "homepage": "https://massgov.github.io/MassDEP/build",
   "dependencies": {
     "prop-types": "^15.6.0",
     "react": "^16.2.0",
@@ -32,7 +31,6 @@
     "babel-preset-react": "^6.24.1",
     "eslint": "^4.17.0",
     "eslint-plugin-react": "^7.6.1",
-    "gh-pages": "^1.1.0",
     "react-scripts": "^1.1.0",
     "shelljs": "^0.8.1",
     "shx": "^0.2.2",
