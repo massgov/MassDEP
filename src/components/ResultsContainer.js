@@ -17,7 +17,7 @@ class ResultsContainer extends React.Component {
             return (
                 <section>
                 <h3 className="ma__comp-heading">No PWS Selected</h3>
-                <p>Select a PWS using either the PWS ID # or PWS Name dropdown menu located to the left.</p>
+                <p>Select a PWS using either the PWS ID # or PWS Name dropdown menu located above.</p>
                 </section>
             );
         }
