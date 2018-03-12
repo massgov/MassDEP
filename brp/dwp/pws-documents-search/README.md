@@ -43,4 +43,4 @@ $ npm start
 ## Mass.gov Drupal Implementation
 1. In any node type that supports iFrames,
 2. Click on `Add iFrame`,
-3. Use `http://massgov.github.io/MassDEP` as the iFrame source.
+3. Use `https://massgov.github.io/MassDEP/brp/dwp/pws-documents-search/build/` as the iFrame source.
