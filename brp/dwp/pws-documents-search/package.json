@@ -19,7 +19,7 @@
     "url": "https://github.com/massgov/MassDEP.git"
   },
   "license": "",
-  "homepage": "https://massgov.github.io/MassDEP/build",
+  "homepage": "https://massgov.github.io/MassDEP/brp/dwp/pws-documents-search/build/",
   "dependencies": {
     "prop-types": "^15.6.0",
     "react": "^16.2.0",

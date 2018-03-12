@@ -42,7 +42,7 @@ class App extends React.Component {
 
     componentDidMount() {
         if(process.env.NODE_ENV === 'production'){
-            fetch('https://api.github.com/repos/massgov/MassDEP/contents/public/data/file-type-map.json', {
+            fetch('https://api.github.com/repos/massgov/MassDEP/contents/brp/dwp/pws-documents-search/public/data/file-type-map.json', {
                 headers: {
                     "Accept": "application/vnd.github.v3.raw"
                 },
@@ -53,7 +53,7 @@ class App extends React.Component {
                 this.setState({fileTypeMap: jsonResponse})
             );
 
-            fetch('https://api.github.com/repos/massgov/MassDEP/contents/public/data/pws-list.json', {
+            fetch('https://api.github.com/repos/massgov/MassDEP/contents/brp/dwp/pws-documents-search/public/data/pws-list.json', {
                 headers: {
                     "Accept": "application/vnd.github.v3.raw"
                 },
@@ -93,7 +93,7 @@ class App extends React.Component {
         let selectedPwsId = this.state.selectedPws.id;
 
         if(process.env.NODE_ENV === 'production'){
-            fetch('https://api.github.com/repos/massgov/MassDEP/contents/public/data/' + selectedPwsId + '.json', {
+            fetch('https://api.github.com/repos/massgov/MassDEP/contents/brp/dwp/pws-documents-search/public/data/' + selectedPwsId + '.json', {
                 headers: {
                     "Accept": "application/vnd.github.v3.raw"
                 },
