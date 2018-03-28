@@ -6,6 +6,6 @@
     }
   ],
   "require-dev": {
-    "palantirnet/mayflower-artifacts": "5.13.0"
+    "palantirnet/mayflower-artifacts": "5.16.0"
   }
 }
