@@ -21,6 +21,7 @@
   "license": "",
   "homepage": "https://massgov.github.io/MassDEP/brp/dwp/pws-documents-search/build/",
   "dependencies": {
+    "array.prototype.find": "^2.0.4",
     "prop-types": "^15.6.0",
     "react": "^16.2.0",
     "react-dom": "^16.2.0"
