@@ -9,7 +9,7 @@ import PropTypes from 'prop-types';
 class SearchForm extends React.Component {
     render() {
         return (
-            <section>
+            <section id="search_form">
                 <form className="ma__form-page" name={this.props.formName} role={'search'}>
                     <fieldset>
                         <SelectBox

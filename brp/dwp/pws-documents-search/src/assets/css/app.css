@@ -1,3 +1,7 @@
 .ma__select-box {
     width: 100%;
 }
+
+#search_form {
+    margin-bottom: 50px;
+}
