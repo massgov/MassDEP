@@ -23,14 +23,14 @@ for (let i = 0; i < directories.length; i++) {
   }
 }
 
-if (!shell.test('-e', path.join('vendor', 'palantirnet', 'mayflower-artifacts', 'assets'))) {
+if (!shell.test('-e', path.join('vendor', 'massgov', 'mayflower-artifacts', 'assets'))) {
     console.log('Run `composer install` to install mayflower-artifacts.');
 } else {
     let cpPath = path.join('src', 'assets', 'mayflower-artifacts');
     console.log('copying files to ' + cpPath);
 
-    shell.cp('-R', path.join('vendor', 'palantirnet', 'mayflower-artifacts', 'assets', 'css', '*'), path.join('src', 'assets', 'mayflower-artifacts', 'css'));
-    shell.cp('-R', path.join('vendor', 'palantirnet', 'mayflower-artifacts', 'assets', 'fonts', '*'), path.join('src', 'assets', 'mayflower-artifacts', 'fonts'));
-    shell.cp('-R', path.join('vendor', 'palantirnet', 'mayflower-artifacts', 'assets', 'images', '*'), path.join('src', 'assets', 'mayflower-artifacts', 'images'));
-    shell.cp('-R', path.join('vendor', 'palantirnet', 'mayflower-artifacts', 'assets', 'js', '*'), path.join('src', 'assets', 'mayflower-artifacts', 'js'));
+    shell.cp('-R', path.join('vendor', 'massgov', 'mayflower-artifacts', 'assets', 'css', '*'), path.join('src', 'assets', 'mayflower-artifacts', 'css'));
+    shell.cp('-R', path.join('vendor', 'massgov', 'mayflower-artifacts', 'assets', 'fonts', '*'), path.join('src', 'assets', 'mayflower-artifacts', 'fonts'));
+    shell.cp('-R', path.join('vendor', 'massgov', 'mayflower-artifacts', 'assets', 'images', '*'), path.join('src', 'assets', 'mayflower-artifacts', 'images'));
+    shell.cp('-R', path.join('vendor', 'massgov', 'mayflower-artifacts', 'assets', 'js', '*'), path.join('src', 'assets', 'mayflower-artifacts', 'js'));
 }
