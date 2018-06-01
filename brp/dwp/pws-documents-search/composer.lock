@@ -4,21 +4,21 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "41873d92b9a1d4ae453695442c445ef3",
+    "content-hash": "d18415e241b00ba24fc134935c61f09b",
     "packages": [],
     "packages-dev": [
         {
             "name": "massgov/mayflower-artifacts",
-            "version": "5.24.0",
+            "version": "5.26.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/massgov/mayflower-artifacts.git",
-                "reference": "72667140f75c2421606d52d9373c16969ea4b0b6"
+                "reference": "fc33222071425d52c62ce6aeef59fb48f1f5bee5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/massgov/mayflower-artifacts/zipball/72667140f75c2421606d52d9373c16969ea4b0b6",
-                "reference": "72667140f75c2421606d52d9373c16969ea4b0b6",
+                "url": "https://api.github.com/repos/massgov/mayflower-artifacts/zipball/fc33222071425d52c62ce6aeef59fb48f1f5bee5",
+                "reference": "fc33222071425d52c62ce6aeef59fb48f1f5bee5",
                 "shasum": ""
             },
             "type": "library",
@@ -33,10 +33,10 @@
             ],
             "description": "This repository is the product of the built artifact from massgov/mayflower",
             "support": {
-                "source": "https://github.com/massgov/mayflower-artifacts/tree/5.24.0",
+                "source": "https://github.com/massgov/mayflower-artifacts/tree/5.26.0",
                 "issues": "https://github.com/massgov/mayflower-artifacts/issues"
             },
-            "time": "2018-05-16T16:29:22+00:00"
+            "time": "2018-05-30T16:48:56+00:00"
         }
     ],
     "aliases": [],
