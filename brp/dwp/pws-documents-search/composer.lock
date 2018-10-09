@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "6636c76ba9fb17152d94eeec80884438",
+    "content-hash": "afb9ba9eec92b5c93dc1e0a58b7b1e42",
     "packages": [],
     "packages-dev": [
         {
@@ -129,7 +129,7 @@
         },
         {
             "name": "massgov/mayflower-artifacts",
-            "version": "8.1.0",
+            "version": "8.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/massgov/mayflower-artifacts.git",
