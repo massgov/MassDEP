@@ -31,7 +31,7 @@ class FormDownloadsAsListing extends React.Component {
                                 {FileDisplayHelper.getSvgIcon((file.ftype))}
                             </div>
                             <div className="ma__download-link__title">
-                                <a className="ma__download-link__file-link" href={file.url} target="_blank">
+                                <a className="ma__download-link__file-link" href={file.url} target="_blank" rel="noopener noreferrer">
                                 <span className="visually-hidden">
                                     Open {file.type.toUpperCase()} file, {file.fsize}, for
                                 </span>
@@ -46,7 +46,7 @@ class FormDownloadsAsListing extends React.Component {
                                     <p>
                                         {FileDisplayHelper.getFileDescription(file.type).description}&nbsp;
                                     </p>
-                                    <a className="ma__content-link" href={FileDisplayHelper.getFileDescription(file.type).link} title="" target="_blank">
+                                    <a className="ma__content-link" href={FileDisplayHelper.getFileDescription(file.type).link} title="" target="_blank" rel="noopener noreferrer">
                                         <span>More information</span>
                                     </a>
                                 </section>
