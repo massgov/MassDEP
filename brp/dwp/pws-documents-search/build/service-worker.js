@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/MassDEP/brp/dwp/pws-documents-search/build/precache-manifest.efa171730e411a39c60a49fd8d92679a.js"
+  "/MassDEP/brp/dwp/pws-documents-search/build/precache-manifest.f4622275d0ad164da3dc6ca2a2a2680f.js"
 );
 
 workbox.clientsClaim();
