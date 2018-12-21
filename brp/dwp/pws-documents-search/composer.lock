@@ -1,10 +1,10 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "256c0c731ee66c4e6152a79d7c046124",
+    "content-hash": "3f7541688dad5532502df939dc4552e7",
     "packages": [],
     "packages-dev": [
         {
@@ -129,16 +129,16 @@
         },
         {
             "name": "massgov/mayflower-artifacts",
-            "version": "8.7.0",
+            "version": "8.14.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/massgov/mayflower-artifacts.git",
-                "reference": "703373176d0c3d1c0e057e21510ed765244d3493"
+                "reference": "1c9ba69d29b65455c96bf65fb01bc6556c8ba550"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/massgov/mayflower-artifacts/zipball/703373176d0c3d1c0e057e21510ed765244d3493",
-                "reference": "703373176d0c3d1c0e057e21510ed765244d3493",
+                "url": "https://api.github.com/repos/massgov/mayflower-artifacts/zipball/1c9ba69d29b65455c96bf65fb01bc6556c8ba550",
+                "reference": "1c9ba69d29b65455c96bf65fb01bc6556c8ba550",
                 "shasum": ""
             },
             "require": {
@@ -156,10 +156,10 @@
             ],
             "description": "This repository is the product of the built artifact from massgov/mayflower",
             "support": {
-                "source": "https://github.com/massgov/mayflower-artifacts/tree/8.7.0",
+                "source": "https://github.com/massgov/mayflower-artifacts/tree/8.14.1",
                 "issues": "https://github.com/massgov/mayflower-artifacts/issues"
             },
-            "time": "2018-10-17T17:28:26+00:00"
+            "time": "2018-12-05T18:25:39+00:00"
         }
     ],
     "aliases": [],
