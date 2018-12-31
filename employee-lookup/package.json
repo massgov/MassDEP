@@ -1,0 +1,43 @@
+{
+  "name": "employee-lookup",
+  "description": "A React app widget for looking up staff contact information.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Tsuyoshi Yano",
+    "email": "tio.yano@mass.gov"
+  },
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/massgov/MassDEP.git"
+  },
+  "license": "",
+  "homepage": "https://massgov.github.io/MassDEP/employee-lookup/build/",
+  "dependencies": {
+    "@massds/mayflower-react": "^8.16.0",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "react-scripts": "2.1.3"
+  },
+  "scripts": {
+    "build-data-files": "node npm-scripts/build-json-data-file.js",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "postbuild": "shx rm -rf build/data",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "csv": "^5.1.0",
+    "shx": "^0.3.2"
+  }
+}
