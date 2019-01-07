@@ -20,12 +20,12 @@ self.__precacheManifest = [
     "url": "/MassDEP/brp/dwp/pws-documents-search/build/static/media/checkmark.e2a07c00.svg"
   },
   {
-    "revision": "d586152ca9a879500813e9e72e509131",
-    "url": "/MassDEP/brp/dwp/pws-documents-search/build/static/media/circle-chevron-green.d586152c.svg"
-  },
-  {
     "revision": "fbeda59ef4950499945fa94808d0124a",
     "url": "/MassDEP/brp/dwp/pws-documents-search/build/static/media/input-error.fbeda59e.svg"
+  },
+  {
+    "revision": "d586152ca9a879500813e9e72e509131",
+    "url": "/MassDEP/brp/dwp/pws-documents-search/build/static/media/circle-chevron-green.d586152c.svg"
   },
   {
     "revision": "74c19a398a83605e6e90d69140356b0a",
