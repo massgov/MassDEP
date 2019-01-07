@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/MassDEP/employee-lookup/build/precache-manifest.c861f2046f47175f2ef73b65720c240e.js"
+  "/MassDEP/employee-lookup/build/precache-manifest.21f057eedcd8339dc835e42d4e373179.js"
 );
 
 workbox.clientsClaim();
