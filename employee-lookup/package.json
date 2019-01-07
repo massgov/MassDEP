@@ -15,6 +15,7 @@
   "homepage": "https://massgov.github.io/MassDEP/employee-lookup/build/",
   "dependencies": {
     "@massds/mayflower-react": "^8.16.0",
+    "babel-polyfill": "^6.26.0",
     "react": "^16.7.0",
     "react-app-polyfill": "^0.2.0",
     "react-dom": "^16.7.0",
