@@ -1,6 +1,6 @@
-MassDEP BRP DWP
+MassDEP BWR DWP
 ========================================================================
-Code base of MassDEP Bureau of Resource Protection (BRP)
+Code base of MassDEP Bureau of Water Resources (BWR)
 Drinking Water Program (DWP) widgets
 
 Index of Widgets

@@ -1,10 +1,10 @@
-MassDEP BRP
+MassDEP Bureau of Water Resources
 ===========
-Code base of MassDEP Bureau of Resource Protection (BRP) widgets
+Code base of MassDEP Bureau of Water Resources (BWR) widgets
 
 Index of Widgets
 ----------------
 
-#### DWP
+#### Drinking Water Program
 
   * [Public Water Supplier Document Search Widget](https://massgov.github.io/MassDEP/brp/dwp/pws-documents-search/build/)

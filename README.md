@@ -6,9 +6,11 @@ widgets.
 Index of Widgets
 ----------------
 
-#### BRP
+[MassDEP Employee Lookup Widget](https://massgov.github.io/MassDEP/employee-lookup/build/)
 
-* DWP
+#### Bureau of Water Resources
+
+* Drinking Water Program
 
   * [Public Water Supplier Document Search Widget](https://massgov.github.io/MassDEP/brp/dwp/pws-documents-search/build/)
   
