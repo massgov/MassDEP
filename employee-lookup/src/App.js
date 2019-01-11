@@ -3,7 +3,7 @@ import { ColoredHeading } from '@massds/mayflower-react';
 import { InputTextTypeAhead } from '@massds/mayflower-react';
 import { SelectBox } from '@massds/mayflower-react';
 import { ListingTable } from '@massds/mayflower-react';
-import './App.css';
+import './App.scss';
 
 class App extends Component {
   constructor(props) {
@@ -153,39 +153,49 @@ class App extends Component {
 
   render() {
     return (
-      <section>
-        <div>
-        <ColoredHeading
-          text="MassDEP Employee Directory"
-          color="blue"
-        />
-        </div>
-        <div id="input-wrapper">
-          <div id="input-select-box">
-            <SelectBox
-              label=""
-              stackLabel={false}
-              id="select-location"
-              selected={this.state.filters.location.text}
-              options={this.state.filterOptions}
-              onChangeCallback={this.handleSelectBoxChange}
-            />
-          </div>
-          <div id="input-text-type-ahead">
-            <InputTextTypeAhead
-              label=""
-              placeholder="Employee Name"
-              id="employee-typeahead"
-              selected={this.state.filters.selection.text}
-              options={this.state.options}
-              onChange={this.handleInputTextTypeAheadOnChange}
+      <section className="container-fluid">
+        <div className="row">
+          <div className="col-12">
+            <ColoredHeading
+              text="MassDEP Employee Directory"
+              color="blue"
             />
           </div>
         </div>
-        <div id="results-listing-table">
-          <ListingTable
-            rows={this.state.tbl_results}
-          />
+        <div className="row">
+              <div className="col-12">
+                <div id="input-select-box">
+                  <SelectBox
+                    label=""
+                    stackLabel={false}
+                    id="select-location"
+                    selected={this.state.filters.location.text}
+                    options={this.state.filterOptions}
+                    onChangeCallback={this.handleSelectBoxChange}
+                  />
+                </div>
+              </div>
+              <div className="col-sm-10 col-md-8 col-lg-6 col-xl-5">
+                <div id="input-text-type-ahead">
+                  <InputTextTypeAhead
+                    label=""
+                    placeholder="Employee Name"
+                    id="employee-typeahead"
+                    selected={this.state.filters.selection.text}
+                    options={this.state.options}
+                    onChange={this.handleInputTextTypeAheadOnChange}
+                  />
+                </div>
+              </div>
+        </div>
+        <div className="row">
+          <div className="col-12">
+            <div id="results-listing-table">
+              <ListingTable
+                rows={this.state.tbl_results}
+              />
+            </div>
+          </div>
         </div>
       </section>
     );

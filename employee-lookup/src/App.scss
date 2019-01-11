@@ -1,0 +1,17 @@
+#input-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+#input-text-type-ahead {
+  margin: 2rem 0 0 0;
+}
+
+#results-listing-table {
+  margin: 1.5rem 0.75rem;
+}
+
+#input-select-box>section>label{
+  display: none;
+}
