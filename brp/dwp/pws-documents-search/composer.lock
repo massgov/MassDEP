@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3f7541688dad5532502df939dc4552e7",
+    "content-hash": "3e15cf3475e3d14ad9c6f84d47493c64",
     "packages": [],
     "packages-dev": [
         {
@@ -129,16 +129,16 @@
         },
         {
             "name": "massgov/mayflower-artifacts",
-            "version": "8.14.1",
+            "version": "9.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/massgov/mayflower-artifacts.git",
-                "reference": "1c9ba69d29b65455c96bf65fb01bc6556c8ba550"
+                "reference": "91245791081ef4f05b5fd33cf9891257d91774d8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/massgov/mayflower-artifacts/zipball/1c9ba69d29b65455c96bf65fb01bc6556c8ba550",
-                "reference": "1c9ba69d29b65455c96bf65fb01bc6556c8ba550",
+                "url": "https://api.github.com/repos/massgov/mayflower-artifacts/zipball/91245791081ef4f05b5fd33cf9891257d91774d8",
+                "reference": "91245791081ef4f05b5fd33cf9891257d91774d8",
                 "shasum": ""
             },
             "require": {
@@ -156,10 +156,10 @@
             ],
             "description": "This repository is the product of the built artifact from massgov/mayflower",
             "support": {
-                "source": "https://github.com/massgov/mayflower-artifacts/tree/8.14.1",
+                "source": "https://github.com/massgov/mayflower-artifacts/tree/9.2.1",
                 "issues": "https://github.com/massgov/mayflower-artifacts/issues"
             },
-            "time": "2018-12-05T18:25:39+00:00"
+            "time": "2019-03-13T16:50:16+00:00"
         }
     ],
     "aliases": [],

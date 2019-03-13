@@ -6,6 +6,6 @@
     }
   ],
   "require-dev": {
-    "massgov/mayflower-artifacts": "8.14.1"
+    "massgov/mayflower-artifacts": "9.2.1"
   }
 }
