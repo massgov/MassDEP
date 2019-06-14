@@ -15,14 +15,14 @@
   "homepage": "https://massgov.github.io/MassDEP/employee-lookup/build/",
   "dependencies": {
     "@massds/mayflower-react": "^8.16.0",
-    "babel-polyfill": "^6.26.0",
-    "bootstrap": "^4.2.1",
-    "node-sass": "^4.11.0",
+    "bootstrap": "^4.3.1",
+    "core-js": "^3.1.3",
+    "node-sass": "^4.12.0",
     "prop-types": "^15.6.2",
     "react": "^16.7.0",
-    "react-app-polyfill": "^0.2.0",
     "react-dom": "^16.7.0",
-    "react-scripts": "2.1.3"
+    "react-scripts": "3.0.1",
+    "regenerator-runtime": "^0.13.2"
   },
   "scripts": {
     "build-data-files": "node npm-scripts/build-json-data-file.js",
