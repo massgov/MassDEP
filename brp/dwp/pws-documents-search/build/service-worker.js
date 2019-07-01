@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/MassDEP/brp/dwp/pws-documents-search/build/precache-manifest.65f900ebb1d227169219d4ca4bded61e.js"
+  "/MassDEP/brp/dwp/pws-documents-search/build/precache-manifest.b50382b3b54aea79ddd25332bda71378.js"
 );
 
 self.addEventListener('message', (event) => {
