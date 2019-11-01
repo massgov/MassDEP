@@ -1,0 +1,9 @@
+version: "3.7"
+services:
+  dev:
+    build: .
+    ports:
+      - "8080:3000"
+    volumes:
+      - ./build:/srv/app/pws-documents-search/build
+    entrypoint: npm run start
