@@ -1,16 +1,23 @@
 {
   "files": {
-    "main.css": "/MassDEP/brp/dwp/pws-documents-search/build/static/css/main.5e5fefb3.chunk.css",
-    "main.js": "/MassDEP/brp/dwp/pws-documents-search/build/static/js/main.8418ba28.chunk.js",
-    "main.js.map": "/MassDEP/brp/dwp/pws-documents-search/build/static/js/main.8418ba28.chunk.js.map",
-    "runtime~main.js": "/MassDEP/brp/dwp/pws-documents-search/build/static/js/runtime~main.0b8b0d2f.js",
-    "runtime~main.js.map": "/MassDEP/brp/dwp/pws-documents-search/build/static/js/runtime~main.0b8b0d2f.js.map",
-    "static/js/2.99755d49.chunk.js": "/MassDEP/brp/dwp/pws-documents-search/build/static/js/2.99755d49.chunk.js",
-    "static/js/2.99755d49.chunk.js.map": "/MassDEP/brp/dwp/pws-documents-search/build/static/js/2.99755d49.chunk.js.map",
+    "main.css": "/MassDEP/brp/dwp/pws-documents-search/build/static/css/main.9be1e388.chunk.css",
+    "main.js": "/MassDEP/brp/dwp/pws-documents-search/build/static/js/main.2eeada19.chunk.js",
+    "main.js.map": "/MassDEP/brp/dwp/pws-documents-search/build/static/js/main.2eeada19.chunk.js.map",
+    "runtime-main.js": "/MassDEP/brp/dwp/pws-documents-search/build/static/js/runtime-main.b5206996.js",
+    "runtime-main.js.map": "/MassDEP/brp/dwp/pws-documents-search/build/static/js/runtime-main.b5206996.js.map",
+    "static/js/2.a4ee67b1.chunk.js": "/MassDEP/brp/dwp/pws-documents-search/build/static/js/2.a4ee67b1.chunk.js",
+    "static/js/2.a4ee67b1.chunk.js.map": "/MassDEP/brp/dwp/pws-documents-search/build/static/js/2.a4ee67b1.chunk.js.map",
     "index.html": "/MassDEP/brp/dwp/pws-documents-search/build/index.html",
-    "precache-manifest.98f784ba331d49663a6e9d141fe3429c.js": "/MassDEP/brp/dwp/pws-documents-search/build/precache-manifest.98f784ba331d49663a6e9d141fe3429c.js",
+    "precache-manifest.f801cf61a310dcca3dd7314e57be19c4.js": "/MassDEP/brp/dwp/pws-documents-search/build/precache-manifest.f801cf61a310dcca3dd7314e57be19c4.js",
     "service-worker.js": "/MassDEP/brp/dwp/pws-documents-search/build/service-worker.js",
-    "static/css/main.5e5fefb3.chunk.css.map": "/MassDEP/brp/dwp/pws-documents-search/build/static/css/main.5e5fefb3.chunk.css.map",
+    "static/css/main.9be1e388.chunk.css.map": "/MassDEP/brp/dwp/pws-documents-search/build/static/css/main.9be1e388.chunk.css.map",
+    "static/js/2.a4ee67b1.chunk.js.LICENSE.txt": "/MassDEP/brp/dwp/pws-documents-search/build/static/js/2.a4ee67b1.chunk.js.LICENSE.txt",
     "static/media/index-generated.css": "/MassDEP/brp/dwp/pws-documents-search/build/static/media/texta-mediumitalic-webfont.d270d480.svg"
-  }
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b5206996.js",
+    "static/js/2.a4ee67b1.chunk.js",
+    "static/css/main.9be1e388.chunk.css",
+    "static/js/main.2eeada19.chunk.js"
+  ]
 }

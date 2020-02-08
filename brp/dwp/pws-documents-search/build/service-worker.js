@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/MassDEP/brp/dwp/pws-documents-search/build/precache-manifest.98f784ba331d49663a6e9d141fe3429c.js"
+  "/MassDEP/brp/dwp/pws-documents-search/build/precache-manifest.f801cf61a310dcca3dd7314e57be19c4.js"
 );
 
 self.addEventListener('message', (event) => {
@@ -35,5 +35,5 @@ workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
 workbox.routing.registerNavigationRoute(workbox.precaching.getCacheKeyForURL("/MassDEP/brp/dwp/pws-documents-search/build/index.html"), {
   
-  blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
+  blacklist: [/^\/_/,/\/[^/?]+\.[^/]+$/],
 });
