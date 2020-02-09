@@ -14,14 +14,14 @@
   "license": "",
   "homepage": "https://massgov.github.io/MassDEP/employee-lookup/build/",
   "dependencies": {
-    "@massds/mayflower-react": "9.18.0",
-    "bootstrap": "^4.3.1",
-    "core-js": "3.1.4",
-    "node-sass": "^4.12.0",
-    "prop-types": "15.7.2",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
-    "react-scripts": "3.0.1",
+    "@massds/mayflower-react": "^9.39.3",
+    "bootstrap": "^4.4.1",
+    "core-js": "^3.6.4",
+    "node-sass": "^4.13.1",
+    "prop-types": "^15.7.2",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-scripts": "3.2.0",
     "regenerator-runtime": "0.13.3"
   },
   "scripts": {
@@ -42,9 +42,9 @@
     "not op_mini all"
   ],
   "devDependencies": {
-    "babel-preset-env": "^1.7.0",
-    "babel-preset-react": "^6.24.1",
-    "csv": "5.1.1",
+    "@babel/preset-env": "^7.8.4",
+    "@babel/preset-react": "^7.8.3",
+    "csv": "^5.3.1",
     "shx": "^0.3.2"
   }
 }
