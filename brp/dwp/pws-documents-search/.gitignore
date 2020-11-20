@@ -1,3 +1,5 @@
 /vendor/
 /node_modules/
+/libraries/
 /src/assets/mayflower-artifacts/
+composer.phar
