@@ -10,10 +10,11 @@ const shell = require('shelljs');
 let directories = [
     path.join('src', 'assets'),
     path.join('src', 'assets' ,'mayflower-artifacts'),
-    path.join('src', 'assets' ,'mayflower-artifacts', 'css'),
-    path.join('src', 'assets' ,'mayflower-artifacts', 'fonts'),
-    path.join('src', 'assets' ,'mayflower-artifacts', 'images'),
-    path.join('src', 'assets' ,'mayflower-artifacts', 'js')
+    path.join('src', 'assets' ,'mayflower-artifacts', 'assets'),
+    path.join('src', 'assets' ,'mayflower-artifacts', 'assets', 'css'),
+    path.join('src', 'assets' ,'mayflower-artifacts', 'assets', 'fonts'),
+    path.join('src', 'assets' ,'mayflower-artifacts', 'assets', 'images'),
+    path.join('src', 'assets' ,'mayflower-artifacts', 'assets', 'js')
 ];
 
 for (let i = 0; i < directories.length; i++) {
@@ -29,8 +30,8 @@ if (!shell.test('-e', path.join('libraries', 'mayflower-artifacts', 'assets'))) 
     let cpPath = path.join('src', 'assets', 'mayflower-artifacts');
     console.log('copying files to ' + cpPath);
 
-    shell.cp('-R', path.join('libraries', 'mayflower-artifacts', 'assets', 'css', '*'), path.join('src', 'assets', 'mayflower-artifacts', 'css'));
-    shell.cp('-R', path.join('libraries', 'mayflower-artifacts', 'assets', 'fonts', '*'), path.join('src', 'assets', 'mayflower-artifacts', 'fonts'));
-    shell.cp('-R', path.join('libraries', 'mayflower-artifacts', 'assets', 'images', '*'), path.join('src', 'assets', 'mayflower-artifacts', 'images'));
-    shell.cp('-R', path.join('libraries', 'mayflower-artifacts', 'assets', 'js', '*'), path.join('src', 'assets', 'mayflower-artifacts', 'js'));
+    shell.cp('-R', path.join('libraries', 'mayflower-artifacts', 'assets', 'css', '*'), path.join('src', 'assets', 'mayflower-artifacts', 'assets', 'css'));
+    shell.cp('-R', path.join('libraries', 'mayflower-artifacts', 'assets', 'fonts', '*'), path.join('src', 'assets', 'mayflower-artifacts', 'assets', 'fonts'));
+    shell.cp('-R', path.join('libraries', 'mayflower-artifacts', 'assets', 'images', '*'), path.join('src', 'assets', 'mayflower-artifacts', 'assets','images'));
+    shell.cp('-R', path.join('libraries', 'mayflower-artifacts', 'assets', 'js', '*'), path.join('src', 'assets', 'mayflower-artifacts', 'assets', 'js'));
 }
