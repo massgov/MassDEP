@@ -21,22 +21,19 @@
   "license": "",
   "homepage": "https://massgov.github.io/MassDEP/brp/dwp/pws-documents-search/build/",
   "dependencies": {
-    "core-js": "^3.1.4",
+    "core-js": "3.7.0",
     "prop-types": "^15.7.2",
-    "react": "^16.12.0",
-    "react-app-polyfill": "^1.0.0",
-    "react-dom": "^16.12.0"
+    "react": "17.0.1",
+    "react-app-polyfill": "2.0.0",
+    "react-dom": "17.0.1",
+    "react-scripts": "4.0.0"
   },
   "devDependencies": {
-    "babel-preset-env": "^1.6.1",
-    "babel-preset-react": "^6.24.1",
-    "eslint-plugin-react": "^7.17.0",
-    "react-scripts": "^3.3.1",
-    "regenerator-runtime": "0.13.3",
-    "shelljs": "^0.8.1",
-    "shx": "^0.3.2",
-    "standard": "^14.3.1",
-    "typescript": "^3.7.5"
+    "regenerator-runtime": "0.13.7",
+    "shelljs": "0.8.4",
+    "shx": "0.3.3",
+    "standard": "16.0.3",
+    "typescript": "4.1.2"
   },
   "browserslist": [
     ">0.2%",
