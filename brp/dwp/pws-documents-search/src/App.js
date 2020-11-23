@@ -44,7 +44,8 @@ class App extends React.Component {
         if(process.env.NODE_ENV === 'production'){
             fetch('https://api.github.com/repos/massgov/MassDEP/contents/brp/dwp/pws-documents-search/public/data/file-type-map.json', {
                 headers: {
-                    "Accept": "application/vnd.github.v3.raw"
+                    'Content-Type': 'application/json',
+                    'Accept': 'application/vnd.github.v3.raw'
                 },
                 method: "GET"
             }).then((response) =>
@@ -55,7 +56,8 @@ class App extends React.Component {
 
             fetch('https://api.github.com/repos/massgov/MassDEP/contents/brp/dwp/pws-documents-search/public/data/pws-list.json', {
                 headers: {
-                    "Accept": "application/vnd.github.v3.raw"
+                    'Content-Type': 'application/json',
+                    'Accept': 'application/vnd.github.v3.raw'
                 },
                 method: "GET"
             }).then((response) =>
@@ -64,13 +66,23 @@ class App extends React.Component {
                 this.setState({pwsOptions: jsonResponse})
             );
         }else if(process.env.NODE_ENV === 'development'){
-            fetch('./data/file-type-map.json').then((response) =>
+            fetch('/data/file-type-map.json', {
+                headers: {
+                    'Content-Type': 'application/json',
+                    'Accept': 'application/json'
+                }
+            }).then((response) =>
                 response.json()
             ).then((jsonResponse) =>
                 this.setState({fileTypeMap: jsonResponse})
             );
 
-            fetch('./data/pws-list.json').then((response) =>
+            fetch('/data/pws-list.json', {
+                headers: {
+                    'Content-Type': 'application/json',
+                    'Accept': 'application/json'
+                }
+            }).then((response) =>
                 response.json()
             ).then((jsonResponse) =>
                 this.setState({pwsOptions: jsonResponse})
@@ -95,7 +107,8 @@ class App extends React.Component {
         if(process.env.NODE_ENV === 'production'){
             fetch('https://api.github.com/repos/massgov/MassDEP/contents/brp/dwp/pws-documents-search/public/data/' + selectedPwsId + '.json', {
                 headers: {
-                    "Accept": "application/vnd.github.v3.raw"
+                    'Content-Type': 'application/json',
+                    'Accept': 'application/vnd.github.v3.raw'
                 },
                 method: "GET"
             }).then((response) =>
@@ -104,7 +117,12 @@ class App extends React.Component {
                 this.setState({init:true, selectedPwsData: jsonResponse})
             );
         }else if(process.env.NODE_ENV === 'development'){
-            fetch('./data/' + selectedPwsId + '.json').then((response) =>
+            fetch('/data/' + selectedPwsId + '.json', {
+                headers: {
+                    'Content-Type': 'application/json',
+                    'Accept': 'application/json'
+                }
+            }).then((response) =>
                 response.json()
             ).then((jsonResponse) =>
                 this.setState({init:true, selectedPwsData: jsonResponse})

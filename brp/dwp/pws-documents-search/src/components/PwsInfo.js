@@ -58,7 +58,7 @@ function PwsInfo(props) {
                         <tr>
                             <th scope="row">Mailing Address:</th>
                             <td className="ma__rich-text">
-                                <span className="ma__listing-table__data-item" dangerouslySetInnerHTML={{__html: mailAddress}}></span>
+                                <span className="ma__listing-table__data-item" dangerouslySetInnerHTML={{__html: mailAddress}}/>
                             </td>
                         </tr>
                     </tbody>
