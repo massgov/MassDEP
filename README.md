@@ -6,8 +6,6 @@ widgets.
 Index of Widgets
 ----------------
 
-[MassDEP Employee Lookup Widget](https://massgov.github.io/MassDEP/employee-lookup/build/)
-
 #### Bureau of Water Resources
 
 * Drinking Water Program
