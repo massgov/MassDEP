@@ -25,8 +25,8 @@ class FormDownloadsAsListing extends React.Component {
             <section className="ma__form-downloads ma__form-downloads--listing">
                 <div className="ma__form-downloads__links">
                     <h3 className="ma__comp-heading">Documents for Download</h3>
-                    {files.map((file) =>
-                        <div key={file.type + file.ftype} className="ma__download-link ">
+                    {files.map((file, idx) =>
+                        <div key={file.type + file.ftype + idx} className="ma__download-link ">
                             <div className="ma__download-link__icon">
                                 {FileDisplayHelper.getSvgIcon((file.ftype))}
                             </div>
