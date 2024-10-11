@@ -45,6 +45,10 @@ class FileDisplayHelper {
             CERT: {
                 link: `https://www.mass.gov/service-details/public-water-supplier-document-search-information`,
                 description: `This Certificate indicates that the system is registered with the state of Massachusetts and must comply with 310 CMR 22.00.`
+            },
+            SLI: {
+                link: `https://www.mass.gov/service-details/public-water-supplier-document-search-information`,
+                description: `Description for Service Line Inventory Goes Here...`
             }
         };
 
