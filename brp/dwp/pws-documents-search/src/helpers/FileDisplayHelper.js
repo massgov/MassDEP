@@ -48,7 +48,7 @@ class FileDisplayHelper {
             },
             SLI: {
                 link: `https://www.mass.gov/service-details/public-water-supplier-document-search-information`,
-                description: `Description for Service Line Inventory Goes Here...`
+                description: ``
             }
         };
 

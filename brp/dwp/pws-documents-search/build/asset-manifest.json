@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/MassDEP/brp/dwp/pws-documents-search/build/static/css/main.8cde50dc.css",
-    "main.js": "/MassDEP/brp/dwp/pws-documents-search/build/static/js/main.ace27e43.js",
+    "main.js": "/MassDEP/brp/dwp/pws-documents-search/build/static/js/main.d2830ba8.js",
     "static/media/NotoSans-Italic.eot": "/MassDEP/brp/dwp/pws-documents-search/build/static/media/NotoSans-Italic.f9f8579e9f7a2c642fb8.eot",
     "static/media/NotoSansItalic-VF.eot": "/MassDEP/brp/dwp/pws-documents-search/build/static/media/NotoSansItalic-VF.f9f8579e9f7a2c642fb8.eot",
     "static/media/NotoSansItalic-VF.ttf": "/MassDEP/brp/dwp/pws-documents-search/build/static/media/NotoSansItalic-VF.a9914ee4948c62eaa0ea.ttf",
@@ -51,10 +51,10 @@
     "static/media/input-error.svg": "/MassDEP/brp/dwp/pws-documents-search/build/static/media/input-error.95033a8dbbdcd014aeaf.svg",
     "static/media/circle-chevron-green.svg": "/MassDEP/brp/dwp/pws-documents-search/build/static/media/circle-chevron-green.9570f12bc60ef72625b9.svg",
     "main.8cde50dc.css.map": "/MassDEP/brp/dwp/pws-documents-search/build/static/css/main.8cde50dc.css.map",
-    "main.ace27e43.js.map": "/MassDEP/brp/dwp/pws-documents-search/build/static/js/main.ace27e43.js.map"
+    "main.d2830ba8.js.map": "/MassDEP/brp/dwp/pws-documents-search/build/static/js/main.d2830ba8.js.map"
   },
   "entrypoints": [
     "static/css/main.8cde50dc.css",
-    "static/js/main.ace27e43.js"
+    "static/js/main.d2830ba8.js"
   ]
 }
