@@ -17,6 +17,7 @@ function PwsInfo (props) {
     <div className='ma__listing-table'>
       <div className='ma__listing-table__container'>
         <table>
+          <caption>Public Water System (PWS) Information</caption>
           <tbody>
             <tr>
               <th scope='row'>PWS ID #:</th>
