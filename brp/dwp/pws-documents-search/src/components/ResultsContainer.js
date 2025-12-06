@@ -16,7 +16,7 @@ class ResultsContainer extends React.Component {
     if (this.props.selectedPws.id === 'PWS ID #' || this.props.init === false) {
       return (
         <section>
-          <h3 className='ma__comp-heading'>No PWS Selected</h3>
+          <h2 className='ma__comp-heading'>No PWS Selected</h2>
           <p>Select a PWS using either the PWS ID # or PWS Name dropdown menu located above.</p>
         </section>
       )
