@@ -14,11 +14,12 @@ class SelectBox extends React.Component {
 
     return (
       <section className='ma__select-box js-dropdown'>
-        <label htmlFor='color-select' className='ma__select-box__label'>
-          {this.props.labelText}
-        </label>
         <div className='ma__select-box__field'>
+          <label htmlFor={this.props.name} className='ma__select-box__label'>
+            {this.props.labelText}
+          </label>
           <select
+            id={this.props.name}
             name={this.props.name}
             value={this.props.selectedOption.id}
             onChange={this.props.onControlFunc}
