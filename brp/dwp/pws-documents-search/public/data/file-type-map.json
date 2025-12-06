@@ -1,7 +1,9 @@
 {
-  "cms": "Compliance Monitoring Schedule",
+  "cms": "Compliance Monitoring Schedules",
   "lcr": "LCR Approved Sampling Sites",
-  "ccr": "Water Quality Report (Consumer Confidence Report)",
-  "cert": "Certificate of Registration",
-  "sli": "Service Line Inventory"
+  "wqr": "Non-Community Water Quality Reports",
+  "ccr": "Consumer Confidence Reports",
+  "cert": "Certificates of Registration",
+  "sli": "Service Line Inventory",
+  "asr": "Annual Statistical Reports"
 }
