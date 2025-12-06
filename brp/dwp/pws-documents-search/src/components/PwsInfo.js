@@ -20,6 +20,12 @@ function PwsInfo (props) {
           <caption>Public Water System (PWS) Information</caption>
           <tbody>
             <tr>
+              <th scope='row'>PWS Status:</th>
+              <td className='ma__rich-text'>
+                <span className='ma__listing-table__data-item'>{props.status}</span>
+              </td>
+            </tr>
+            <tr>
               <th scope='row'>PWS ID #:</th>
               <td className='ma__rich-text'>
                 <span className='ma__listing-table__data-item'>{props.id}</span>
@@ -73,6 +79,7 @@ PwsInfo.propTypes = {
   id: PropTypes.number.isRequired,
   name: PropTypes.string.isRequired,
   class: PropTypes.string.isRequired,
+  status: PropTypes.string.isRequired,
   town: PropTypes.string.isRequired,
   winter: PropTypes.number,
   summer: PropTypes.number,

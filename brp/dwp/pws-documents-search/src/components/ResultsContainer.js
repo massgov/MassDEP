@@ -32,6 +32,7 @@ class ResultsContainer extends React.Component {
             id={this.props.selectedPwsData.pws.id}
             name={this.props.selectedPwsData.pws.name}
             class={this.props.selectedPwsData.pws.class}
+            status={this.props.selectedPwsData.pws.status}
             town={this.props.selectedPwsData.pws.town}
             winter={this.props.selectedPwsData.pws.winter}
             summer={this.props.selectedPwsData.pws.summer}
