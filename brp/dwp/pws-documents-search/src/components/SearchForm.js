@@ -11,33 +11,27 @@ class SearchForm extends React.Component {
     return (
       <section id='search_form'>
         <form className='ma__form-page' name={this.props.formName} role='search'>
-          <fieldset>
-            <SelectBox
-              labelText='Select a PWS by ID #'
-              name='pws-id'
-              selectedOption={this.props.selectedPws}
-              options={this.props.pwsOptions}
-              sortOptionsBy='id'
-              onControlFunc={this.props.onHandlePwsSelectFunc}
-            />
-          </fieldset>
-          <fieldset>
-            <SelectBox
-              labelText='Select a PWS by Name'
-              name='pws-name'
-              selectedOption={this.props.selectedPws}
-              options={this.props.pwsOptions}
-              sortOptionsBy='name'
-              onControlFunc={this.props.onHandlePwsSelectFunc}
-            />
-          </fieldset>
-          <fieldset>
-            <Button
-              ariaLabel='Retrieve Documents'
-              text='Retrieve Documents'
-              onHandleFunc={this.props.onHandleButtonFunc}
-            />
-          </fieldset>
+          <SelectBox
+            labelText='Select a PWS by ID #'
+            name='pws-id'
+            selectedOption={this.props.selectedPws}
+            options={this.props.pwsOptions}
+            sortOptionsBy='id'
+            onControlFunc={this.props.onHandlePwsSelectFunc}
+          />
+          <SelectBox
+            labelText='Select a PWS by Name'
+            name='pws-name'
+            selectedOption={this.props.selectedPws}
+            options={this.props.pwsOptions}
+            sortOptionsBy='name'
+            onControlFunc={this.props.onHandlePwsSelectFunc}
+          />
+          <Button
+            ariaLabel='Retrieve Documents'
+            text='Retrieve Documents'
+            onHandleFunc={this.props.onHandleButtonFunc}
+          />
         </form>
       </section>
     )
