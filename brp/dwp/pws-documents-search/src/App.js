@@ -133,20 +133,26 @@ class App extends React.Component {
   render () {
     return (
       <section>
-        <h2 className='ma__colored-heading ma__colored-heading--blue'>Public Water System Document Search</h2>
-        <SearchForm
-          formName='frmPwsDoc'
-          pwsOptions={this.state.pwsOptions}
-          selectedPws={this.state.selectedPws}
-          onHandlePwsSelectFunc={this.handlePwsSelect}
-          onHandleButtonFunc={this.handleButtonClick}
-        />
-        <ResultsContainer
-          init={this.state.init}
-          selectedPws={this.state.selectedPws}
-          selectedPwsData={this.state.selectedPwsData}
-          fileTypeMap={this.state.fileTypeMap}
-        />
+        <header>
+          <h1 className='ma__colored-heading ma__colored-heading--blue'>Public Water System Document Search</h1>
+        </header>
+        <nav>
+          <SearchForm
+            formName='frmPwsDoc'
+            pwsOptions={this.state.pwsOptions}
+            selectedPws={this.state.selectedPws}
+            onHandlePwsSelectFunc={this.handlePwsSelect}
+            onHandleButtonFunc={this.handleButtonClick}
+          />
+        </nav>
+        <main>
+          <ResultsContainer
+            init={this.state.init}
+            selectedPws={this.state.selectedPws}
+            selectedPwsData={this.state.selectedPwsData}
+            fileTypeMap={this.state.fileTypeMap}
+          />
+        </main>
       </section>
     )
   }
