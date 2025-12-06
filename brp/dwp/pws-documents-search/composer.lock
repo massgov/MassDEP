@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b3f6a54313565c9b3501678b9a1eedc3",
+    "content-hash": "9359c3c7ea3e2c1f998176ab550ab6b6",
     "packages": [],
     "packages-dev": [
         {
@@ -150,16 +150,16 @@
         },
         {
             "name": "massgov/mayflower-artifacts",
-            "version": "10.2.0",
+            "version": "11.4.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/massgov/mayflower-artifacts.git",
-                "reference": "b26c31b4f146a081562b313c8e99dcddbe61b720"
+                "reference": "3b23359d8724b27eb4e9b299315f3dff2507788b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/massgov/mayflower-artifacts/zipball/b26c31b4f146a081562b313c8e99dcddbe61b720",
-                "reference": "b26c31b4f146a081562b313c8e99dcddbe61b720",
+                "url": "https://api.github.com/repos/massgov/mayflower-artifacts/zipball/3b23359d8724b27eb4e9b299315f3dff2507788b",
+                "reference": "3b23359d8724b27eb4e9b299315f3dff2507788b",
                 "shasum": ""
             },
             "require": {
@@ -177,10 +177,10 @@
             ],
             "description": "This repository is the product of the built artifact from massgov/mayflower",
             "support": {
-                "source": "https://github.com/massgov/mayflower-artifacts/tree/10.2.0",
+                "source": "https://github.com/massgov/mayflower-artifacts/tree/11.4.2",
                 "issues": "https://github.com/massgov/mayflower-artifacts/issues"
             },
-            "time": "2020-11-16T19:34:48+00:00"
+            "time": "2021-05-10T19:49:23+00:00"
         }
     ],
     "aliases": [],
@@ -190,5 +190,5 @@
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
-    "plugin-api-version": "2.0.0"
+    "plugin-api-version": "2.6.0"
 }

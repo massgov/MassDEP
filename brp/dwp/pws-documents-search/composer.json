@@ -6,7 +6,7 @@
     }
   ],
   "require-dev": {
-    "massgov/mayflower-artifacts": "10.2.0"
+    "massgov/mayflower-artifacts": "11.4.2"
   },
   "config": {
     "allow-plugins": {
