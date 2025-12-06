@@ -42,6 +42,10 @@ class FileDisplayHelper {
         link: 'https://www.mass.gov/service-details/public-water-supplier-document-search-information',
         description: 'This report provides information on how your system complies with the drinking water contaminant monitoring requirements during the reporting year.'
       },
+      WQR: {
+        link: `https://www.mass.gov/service-details/public-water-supplier-document-search-information`,
+        description: `This report provides information on how your system complies with the drinking water contaminant monitoring requirements during the reporting year.`
+      },
       CERT: {
         link: 'https://www.mass.gov/service-details/public-water-supplier-document-search-information',
         description: 'This Certificate indicates that the system is registered with the state of Massachusetts and must comply with 310 CMR 22.00.'
@@ -49,7 +53,11 @@ class FileDisplayHelper {
       SLI: {
         link: 'https://www.mass.gov/service-details/public-water-supplier-document-search-information',
         description: ''
-      }
+      },
+      ASR: {
+        link: `https://www.mass.gov/service-details/public-water-supplier-document-search-information`,
+        description: `This annual report is submitted by all public water systems.  The report includes inventory, staffing, pumping volumes, other statistical data, and, if applicable, Water Management Act reporting data.`
+      },
     }
 
     return descriptions[type.toUpperCase()]
