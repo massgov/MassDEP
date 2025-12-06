@@ -1,7 +1,42 @@
+/* Form */
 .ma__select-box {
     width: 100%;
 }
 
 #search_form {
     margin-bottom: 50px;
+}
+
+/* File Downloads */
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul.downloads-list li.downloads-list__category{
+    padding: 1.5rem 0 1.5rem 0;
+}
+
+ul.ma__form-downloads__downloads-list{
+    display: inline-flex;
+    flex-direction: row;
+}
+
+li.ma__download-item::before{
+    content: '\00a0';
+}
+
+li.ma__download-item::after{
+    content: ';';
+}
+
+.ma__download-item__filesize{
+    font-size: 1.2rem;
 }
