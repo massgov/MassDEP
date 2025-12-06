@@ -15,9 +15,8 @@ class FormDownloadsAsListing extends React.Component {
     if (this.props.documents.length === 0) {
       return (
         <section className='ma__form-downloads ma__form-downloads--listing'>
-          <div className='ma__form-downloads__links'>
-            <h3 className='ma__comp-heading'>No Documents for Download</h3>
-          </div>
+          <h2 className='ma__comp-heading'>Documents Available for Download</h2>
+          <p>No documents were found for the selected Public Water System.</p>
         </section>
       )
     }
